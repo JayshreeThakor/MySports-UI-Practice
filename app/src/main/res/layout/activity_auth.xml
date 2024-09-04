@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+android:background="@drawable/bg_grass"
+tools:context=".ui.login.AuthActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/ic_app_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        style="@style/btnFilledGreen"
+        android:background="@drawable/bg_btn_white"
+        android:text="@string/login"
+        android:textColor="@color/green"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignup"
+        style="@style/btnFilledGreen"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_btn_green_transparent"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toTopOf="@+id/txtOr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<View
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:background="@color/light_grey"
+    app:layout_constraintBottom_toBottomOf="@+id/txtOr"
+    app:layout_constraintEnd_toStartOf="@+id/txtOr"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/txtOr"
+    app:layout_constraintWidth_percent="0.35" />
+
+<TextView
+    android:id="@+id/txtOr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:text="@string/or"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    app:layout_constraintBottom_toTopOf="@+id/btnGoogle"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<View
+    android:layout_width="0dp"
+    android:layout_height="1dp"
+    android:background="@color/light_grey"
+    app:layout_constraintBottom_toBottomOf="@+id/txtOr"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/txtOr"
+    app:layout_constraintTop_toTopOf="@+id/txtOr"
+    app:layout_constraintWidth_percent="0.35" />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnGoogle"
+    android:layout_marginBottom="80dp"
+    android:background="@drawable/bg_btn_green_transparent"
+    android:drawableStart="@drawable/ic_google"
+    android:text="@string/continue_with_google"
+    android:textSize="14sp"
+    style="@style/btnFilledGreen"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

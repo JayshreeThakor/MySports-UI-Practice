@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MySports</string>
+    <string name="home">Booking</string>
+    <string name="tournament">Tournament</string>
+    <string name="umpire">Umpire</string>
+    <string name="profile">Profile</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="go_back">Go Back</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="register">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="upload_profile_photo"><u>Upload profile photo</u></string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_bio">Enter bio…</string>
+    <string name="city">City</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="txt_enter_the_otp">Enter the OTP sent to your phone number</string>
+    <string name="submit">Submit</string>
+    <string name="did_not_receive_code">Didn\'t Receive Code?</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="otp_hint">-</string>
+    <string name="resend_code_in">Resend code in</string>
+    <string name="_00_20">00:20</string>
+    <string name="who_am_i">Who am I...?</string>
+    <string name="pickle_ball_player">Pickle Ball Player</string>
+    <string name="football_player">Football Player</string>
+    <string name="badminton_player">Badminton Player</string>
+    <string name="cricket_player">Cricket Player</string>
+    <string name="football">Football</string>
+    <string name="cricket">Cricket</string>
+    <string name="box_cricket_grounds">Box Cricket Grounds</string>
+    <string name="view_all">View All</string>
+    <string name="terms_and_condition_line">By continuing, you agree our <font color="#27A102"><u>Privacy Policy</u></font> and <font color="#27A102"><u>Terms of Use</u></font></string>
+</resources>
